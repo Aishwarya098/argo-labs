@@ -3,6 +3,9 @@ kind: Kustomization
 resources:
 - ../base
 namespace: staging
+images:
+  - name: schoolofdevops/vote
+    newTag: v8
 commonAnnotations:
   supported-by: sre@example.com
 labels:
