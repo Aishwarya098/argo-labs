@@ -5,6 +5,6 @@ resources:
 - service.yaml
 - preview-service.yaml
 images:
-- name: schoolofdevops/vote
-  newName: aishwaryaja1/vote
+- name: aishwaryaja1/vote
+  newName: schoolofdevops/vote
   newTag: v8
